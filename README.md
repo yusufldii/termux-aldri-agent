@@ -27,22 +27,31 @@ While commercial AI frameworks are bogged down by layers of corporate bureaucrac
 
 ## ⚙️ Installation & Setup (Termux / Linux)
 
-Clone the repository:
-git clone https://github.com/yusufldii/termux-aldri-agent.git
+1. Clone the repository:
 
-Navigate to the directory:
-cd termux-aldri-agent
+   git clone https://github.com/yusufldii/termux-aldri-agent.git
 
-Install dependencies:
-pip install requests python-dotenv
 
-Configure your environment: Create a .env file in the root directory and set your API parameters:
-OPENAI_API_BASE=http://your-api-endpoint/v1
-OPENAI_API_KEY=your-api-key-here
-MODEL_NAME=My-combo
+3. Navigate to the directory:
+ 
+   cd termux-aldri-agent
 
-Launch the Agent:
-python agent.py
+
+4. Install dependencies:
+ 
+   pip install requests python-dotenv
+
+
+5. Configure your environment: Create a .env file in the root directory and set your API parameters:
+ 
+   OPENAI_API_BASE=http://your-api-endpoint/v1
+   OPENAI_API_KEY=your-api-key-here
+   MODEL_NAME=My-combo
+
+
+6. Launch the Agent:
+
+   python agent.py
 
 ## 💡 Special Commands
 Type Vreset inside the agent prompt to completely wipe the SQLite chat history and reinitialize fresh memory.
