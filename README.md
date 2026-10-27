@@ -25,15 +25,6 @@ While commercial AI frameworks are bogged down by layers of corporate bureaucrac
 
 ---
 
-## 📂 Project Structure
-
-text
-├── agent.py              # The core monolithic professional agent script
-├── agent_memory.db       # SQLite local persistent memory (auto-generated)
-├── .env                  # Environment configuration (API keys & endpoints)
-└── README.md             # Project documentation
-
-
 ## ⚙️ Installation & Setup (Termux / Linux)
 
 Clone the repository:
@@ -59,3 +50,12 @@ Type exit or quit to terminate the session safely.
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
+
+
+## 📂 Project Structure
+
+```text
+├── agent.py              # The core monolithic professional agent script
+├── agent_memory.db       # SQLite local persistent memory (auto-generated)
+├── .env                  # Environment configuration (API keys & endpoints)
+└── README.md             # Project documentation
