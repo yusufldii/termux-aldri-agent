@@ -38,8 +38,10 @@ While commercial AI frameworks are bogged down by layers of corporate bureaucrac
 
 Clone the repository:
 git clone https://github.com/yusufkdii/termux-aldri-agent.git
+
 Navigate to the directory:
 cd termux-aldri-agent
+
 Install dependencies:
 pip install requests python-dotenv
 
