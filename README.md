@@ -27,7 +27,7 @@ While commercial AI frameworks are bogged down by layers of corporate bureaucrac
 
 ## 📂 Project Structure
 
-```text
+text
 ├── agent.py              # The core monolithic professional agent script
 ├── agent_memory.db       # SQLite local persistent memory (auto-generated)
 ├── .env                  # Environment configuration (API keys & endpoints)
